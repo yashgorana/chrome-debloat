@@ -43,15 +43,11 @@
 			<integer>2</integer>
 			<key>CloudReportingEnabled</key>
 			<false/>
-			<key>DriveDisabled</key>
-			<true/>
 			<key>PasswordManagerEnabled</key>
 			<false/>
 			<key>PasswordSharingEnabled</key>
 			<false/>
 			<key>PasswordLeakDetectionEnabled</key>
-			<false/>
-			<key>QuickAnswersEnabled</key>
 			<false/>
 			<key>SafeBrowsingExtendedReportingEnabled</key>
 			<false/>
@@ -59,30 +55,6 @@
 			<false/>
 			<key>SafeBrowsingDeepScanningEnabled</key>
 			<false/>
-			<key>DeviceActivityHeartbeatEnabled</key>
-			<false/>
-			<key>DeviceMetricsReportingEnabled</key>
-			<false/>
-			<key>HeartbeatEnabled</key>
-			<false/>
-			<key>LogUploadEnabled</key>
-			<false/>
-			<key>ReportAppInventory</key>
-			<array>
-				<string></string>
-			</array>
-			<key>ReportDeviceActivityTimes</key>
-			<false/>
-			<key>ReportDeviceAppInfo</key>
-			<false/>
-			<key>ReportDeviceSystemInfo</key>
-			<false/>
-			<key>ReportDeviceUsers</key>
-			<false/>
-			<key>ReportWebsiteTelemetry</key>
-			<array>
-				<string></string>
-			</array>
 			<key>AlternateErrorPagesEnabled</key>
 			<false/>
 			<key>AutofillCreditCardEnabled</key>
@@ -98,8 +70,6 @@
 			<key>DefaultBrowserSettingEnabled</key>
 			<false/>
 			<key>MetricsReportingEnabled</key>
-			<false/>
-			<key>ParcelTrackingEnabled</key>
 			<false/>
 			<key>RelatedWebsiteSetsEnabled</key>
 			<false/>

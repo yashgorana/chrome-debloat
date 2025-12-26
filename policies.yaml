@@ -21,31 +21,16 @@ chrome: &chrome
   DefaultSerialGuardSetting: 2
   # Cloud Reporting
   CloudReportingEnabled: false
-  # Drive
-  DriveDisabled: true
   # Password
   PasswordManagerEnabled: false
   PasswordSharingEnabled: false
   PasswordLeakDetectionEnabled: false
-  # Quick Answers
-  QuickAnswersEnabled: false
   # Safe Browsing
   SafeBrowsingExtendedReportingEnabled: false
   SafeBrowsingSurveysEnabled: false
   SafeBrowsingDeepScanningEnabled: false
-  # User and device reporting
-  DeviceActivityHeartbeatEnabled: false
-  DeviceMetricsReportingEnabled: false
-  HeartbeatEnabled: false
-  LogUploadEnabled: false
-  ReportAppInventory:
-  - ""
-  ReportDeviceActivityTimes: false
-  ReportDeviceAppInfo: false
-  ReportDeviceSystemInfo: false
-  ReportDeviceUsers: false
-  ReportWebsiteTelemetry:
-  - ""
+  # User and device reporting (ChromeOS-only policies removed for Windows/macOS)
+  # Heartbeat/reporting policies were ChromeOS-specific and caused import errors in Chrome on Windows.
   # Miscellaneous
   AlternateErrorPagesEnabled: false
   AutofillCreditCardEnabled: false
@@ -55,7 +40,6 @@ chrome: &chrome
   BuiltInDnsClientEnabled: false
   DefaultBrowserSettingEnabled: false
   MetricsReportingEnabled: false
-  ParcelTrackingEnabled: false
   RelatedWebsiteSetsEnabled: false
   ShoppingListEnabled: false
   SyncDisabled: true
