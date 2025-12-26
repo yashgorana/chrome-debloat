@@ -120,7 +120,7 @@ edge: &edge
   PinBrowserEssentialsToolbarButton: false
   StartupBoostEnabled: false
   # Permit or deny screen capture
-  # Prining
+  # Printing
   # Private Network Request Setting
   # Profile Settings
   # Proxy Server
