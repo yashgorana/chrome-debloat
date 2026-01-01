@@ -91,8 +91,6 @@
 			<false/>
 			<key>BrowserGuestModeEnabled</key>
 			<false/>
-			<key>BrowserSignin</key>
-			<integer>0</integer>
 			<key>BuiltInDnsClientEnabled</key>
 			<false/>
 			<key>DefaultBrowserSettingEnabled</key>
@@ -105,20 +103,31 @@
 			<false/>
 			<key>ShoppingListEnabled</key>
 			<false/>
-			<key>SyncDisabled</key>
+			<key>PrivacySandboxPromptEnabled</key>
+			<false/>
+			<key>SpellCheckServiceEnabled</key>
+			<false/>
+			<key>SpellcheckEnabled</key>
+			<false/>
+			<key>UserFeedbackAllowed</key>
+			<false/>
+			<key>HardwareAccelerationModeEnabled</key>
+			<false/>
+			<key>HighEfficiencyModeEnabled</key>
 			<true/>
+			<key>MemorySaverModeSavings</key>
+			<integer>2</integer>
 			<key>ExtensionManifestV2Availability</key>
 			<integer>2</integer>
 			<key>ExtensionInstallForcelist</key>
 			<array>
-				<string>cjpalhdlnbpafiamejdnhcphjbkeiagm</string>
-				<string>fhcgjolkccmbidfldomjliifgaodjagh</string>
-				<string>nkgllhigpcljnhoakjkgaieabnkmgdkb</string>
+				<string>ddkjiahejlhfcafbddmgiahcphecmpfh</string>
 				<string>edibdbjcniadpccecjdfdjjppcpchdlm</string>
-				<string>mnjggcdmjocbbbhaepdhchncahnbgone</string>
-				<string>bbeaicapbccfllodepmimpkgecanonai</string>
-				<string>jaadjnlkjnhohljficgoddcjmndjfdmi</string>
-				<string>ldpochfccmkkmhdbclfhpagapcfdljkj</string>
+			</array>
+			<key>ExtensionInstallBlocklist</key>
+			<array>
+				<string>lmjegmlicamnimmfhcmpkclmigmmcbeh</string>
+				<string>ghbmnnjooekpmoecnnnilnnbdlolhkhi</string>
 			</array>
 		</dict>
 	</array>

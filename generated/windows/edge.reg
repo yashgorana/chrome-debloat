@@ -145,11 +145,17 @@ Windows Registry Editor Version 5.00
 "MetricsReportingEnabled"=dword:00000000
 "ParcelTrackingEnabled"=dword:00000000
 "ShoppingListEnabled"=dword:00000000
-"SyncDisabled"=dword:00000001
+"PrivacySandboxPromptEnabled"=dword:00000000
+"SpellCheckServiceEnabled"=dword:00000000
+"HardwareAccelerationModeEnabled"=dword:00000000
+"HighEfficiencyModeEnabled"=dword:00000001
+"MemorySaverModeSavings"=dword:00000002
 "ExtensionManifestV2Availability"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionInstallForcelist]
 "1"="odfafepnkmbhccpbejgmiehpchacaeak"
-"2"="djkjpnciiommncecmdefpdllknjdmmmo"
-"3"="kkacdgacpkediooahopgcbdahlpipheh"
-"4"="ihknoknoahjhldmpdoajjdkfjhddgpcd"
+"2"="kkacdgacpkediooahopgcbdahlpipheh"
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionInstallBlocklist]
+"1"="lmjegmlicamnimmfhcmpkclmigmmcbeh"
+"2"="ghbmnnjooekpmoecnnnilnnbdlolhkhi"

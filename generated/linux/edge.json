@@ -9,9 +9,7 @@
   "BlockExternalExtensions": false,
   "ExtensionInstallForcelist": [
     "odfafepnkmbhccpbejgmiehpchacaeak",
-    "djkjpnciiommncecmdefpdllknjdmmmo",
-    "kkacdgacpkediooahopgcbdahlpipheh",
-    "ihknoknoahjhldmpdoajjdkfjhddgpcd"
+    "kkacdgacpkediooahopgcbdahlpipheh"
   ],
   "GamerModeEnabled": false,
   "GenAILocalFoundationalModelSettings": 1,
@@ -153,6 +151,14 @@
   "MetricsReportingEnabled": false,
   "ParcelTrackingEnabled": false,
   "ShoppingListEnabled": false,
-  "SyncDisabled": true,
-  "ExtensionManifestV2Availability": 2
+  "PrivacySandboxPromptEnabled": false,
+  "SpellCheckServiceEnabled": false,
+  "HardwareAccelerationModeEnabled": false,
+  "HighEfficiencyModeEnabled": true,
+  "MemorySaverModeSavings": 2,
+  "ExtensionManifestV2Availability": 2,
+  "ExtensionInstallBlocklist": [
+    "lmjegmlicamnimmfhcmpkclmigmmcbeh",
+    "ghbmnnjooekpmoecnnnilnnbdlolhkhi"
+  ]
 }

@@ -55,6 +55,7 @@ If you want to customize the policies:
 1. Clone this repository
 2. Install dependencies:
    ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    uv sync
    ```
 3. Modify `policies.yaml` according to your needs

@@ -2,6 +2,7 @@
   "BraveAIChatEnabled": false,
   "BraveNewsDisabled": true,
   "BraveP3AEnabled": false,
+  "BravePlaylistEnabled": false,
   "BraveRewardsDisabled": true,
   "BraveSpeedreaderEnabled": false,
   "BraveStatsPingEnabled": false,
@@ -45,23 +46,26 @@
   "AutofillCreditCardEnabled": false,
   "BackgroundModeEnabled": false,
   "BrowserGuestModeEnabled": false,
-  "BrowserSignin": 0,
   "BuiltInDnsClientEnabled": false,
   "DefaultBrowserSettingEnabled": false,
   "MetricsReportingEnabled": false,
   "ParcelTrackingEnabled": false,
   "RelatedWebsiteSetsEnabled": false,
   "ShoppingListEnabled": false,
-  "SyncDisabled": true,
+  "PrivacySandboxPromptEnabled": false,
+  "SpellCheckServiceEnabled": false,
+  "SpellcheckEnabled": false,
+  "UserFeedbackAllowed": false,
+  "HardwareAccelerationModeEnabled": false,
+  "HighEfficiencyModeEnabled": true,
+  "MemorySaverModeSavings": 2,
   "ExtensionManifestV2Availability": 2,
   "ExtensionInstallForcelist": [
-    "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-    "fhcgjolkccmbidfldomjliifgaodjagh",
-    "nkgllhigpcljnhoakjkgaieabnkmgdkb",
-    "edibdbjcniadpccecjdfdjjppcpchdlm",
-    "mnjggcdmjocbbbhaepdhchncahnbgone",
-    "bbeaicapbccfllodepmimpkgecanonai",
-    "jaadjnlkjnhohljficgoddcjmndjfdmi",
-    "ldpochfccmkkmhdbclfhpagapcfdljkj"
+    "ddkjiahejlhfcafbddmgiahcphecmpfh",
+    "edibdbjcniadpccecjdfdjjppcpchdlm"
+  ],
+  "ExtensionInstallBlocklist": [
+    "lmjegmlicamnimmfhcmpkclmigmmcbeh",
+    "ghbmnnjooekpmoecnnnilnnbdlolhkhi"
   ]
 }

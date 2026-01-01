@@ -1,15 +1,11 @@
 chromeExtensions: &chromeExtensions
   ExtensionManifestV2Availability: 2
   ExtensionInstallForcelist:
-  - cjpalhdlnbpafiamejdnhcphjbkeiagm # uBlock Origin; Chrome Web Store
-  - fhcgjolkccmbidfldomjliifgaodjagh # Cookie AutoDelete; Chrome Web Store
-  - nkgllhigpcljnhoakjkgaieabnkmgdkb # Don't f*** with paste; Chrome Web Store
+  - ddkjiahejlhfcafbddmgiahcphecmpfh # uBlock Origin Lite; Chrome Web Store
   - edibdbjcniadpccecjdfdjjppcpchdlm # I still don't care about cookies; Chrome Web Store
-  - mnjggcdmjocbbbhaepdhchncahnbgone # SponsorBlock; Chrome Web Store
-  - bbeaicapbccfllodepmimpkgecanonai # BlockTube; Chrome Web Store
-  - jaadjnlkjnhohljficgoddcjmndjfdmi # Blank Tab; Chrome Web Store
-  - ldpochfccmkkmhdbclfhpagapcfdljkj # Decentraleyes; Chrome Web Store
-
+  ExtensionInstallBlocklist:
+  - lmjegmlicamnimmfhcmpkclmigmmcbeh # Application launcher for Drive (by Google)
+  - ghbmnnjooekpmoecnnnilnnbdlolhkhi # Google Docs Offline extension
 # https://chromeenterprise.google/policies/
 chrome: &chrome
   !!merge <<: *chromeExtensions
@@ -51,14 +47,24 @@ chrome: &chrome
   AutofillCreditCardEnabled: false
   BackgroundModeEnabled: false
   BrowserGuestModeEnabled: false
-  BrowserSignin: 0
+  # BrowserSignin: 0
   BuiltInDnsClientEnabled: false
   DefaultBrowserSettingEnabled: false
   MetricsReportingEnabled: false
   ParcelTrackingEnabled: false
   RelatedWebsiteSetsEnabled: false
   ShoppingListEnabled: false
-  SyncDisabled: true
+  # SyncDisabled: true
+  PrivacySandboxPromptEnabled: false
+  SpellCheckServiceEnabled: false
+  SpellcheckEnabled: false
+  UserFeedbackAllowed: false
+
+  # Optimize
+  HardwareAccelerationModeEnabled: false
+  HighEfficiencyModeEnabled: true
+  MemorySaverModeSavings: 2
+
 
 # https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy
 brave: &brave
@@ -66,6 +72,7 @@ brave: &brave
   BraveAIChatEnabled: false
   BraveNewsDisabled: true # brave 1.82
   BraveP3AEnabled: false # brave 1.83
+  BravePlaylistEnabled: false
   BraveRewardsDisabled: true
   BraveSpeedreaderEnabled: false # brave 1.82
   BraveStatsPingEnabled: false # brave 1.83
@@ -106,9 +113,7 @@ edge: &edge
   BlockExternalExtensions: false
   ExtensionInstallForcelist:
   - odfafepnkmbhccpbejgmiehpchacaeak # uBlock Origin; Edge Web Store
-  - djkjpnciiommncecmdefpdllknjdmmmo # Cookie AutoDelete; Edge Web Store
   - kkacdgacpkediooahopgcbdahlpipheh # I still don't care about cookies; Edge Web Store
-  - ihknoknoahjhldmpdoajjdkfjhddgpcd # Blank Tab; Edge Web Store
   # Games
   GamerModeEnabled: false
   # Generative AI
